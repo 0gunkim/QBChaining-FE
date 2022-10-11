@@ -6,7 +6,7 @@ import { logIn } from "./redux/modules/userSlice";
 import RouterChangeTracker from "./utils/RouterChangeTracker";
 import React from "react";
 
-const App: React.FC = () => {
+const App = () => {
   RouterChangeTracker();
 
   const dispatch = useDispatch();

@@ -10,7 +10,7 @@ import { needLoginAlert } from "../../utils/swal";
 //이미지
 import addlike from "../../assets/images/addLike.png";
 import unlike from "../../assets/images/unlike.png";
-
+//gg
 const BlogLike = ({ isLike, like }) => {
   const { isLogin } = useSelector(state => state.userSlice);
   const dispatch = useDispatch();
